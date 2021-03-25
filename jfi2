@@ -1,0 +1,10 @@
+mkdir -p /tmp/jfi
+rm -rf /tmp/jfi*
+echo '
+public class main {
+    public static void(string[] args) {
+	 System.out.println("hello-worldello,world");
+	 }
+ }
+ , >/tmp/jfi/main.java
+ javac /tmp/jfi/main.java
